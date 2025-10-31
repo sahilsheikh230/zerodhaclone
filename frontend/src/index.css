@@ -1,0 +1,211 @@
+p,h1{
+  color:#424242;
+  
+}
+h1{
+  font-size: 25px;
+}
+p{
+  font-size: 18px;
+}
+
+.signup{
+  width:204px;
+background-color: #3d7ed1;
+height:45px;
+font-weight:bold;
+font-size:larger;
+}
+.investp{
+  font-size: larger;
+  padding:1px 0px 15px;
+  font:20px;
+
+}
+.awardimg{
+  height:590px;
+  width:602px;
+}
+.awardsp p{
+  margin:5px 0px 32px;
+  
+}
+.explore{
+  margin-left:70px;
+  text-decoration: none;
+  font:16px;
+  color:#3d7ed1;
+}
+.try{
+   margin-left:15px;
+  text-decoration: none;
+  font:16px;
+  color:#3d7ed1;
+}
+.footer{
+  background-color: #FBFBFB;
+  width:100%;
+
+}
+.logo{
+  width:190px;
+  height:36px;
+}
+.footerp p{
+  font-size:10px;
+  color:#9B9B9B;
+}
+.footerul li a{
+  color:#666666;
+}
+.footerul li h4{
+  font-size: 21px;
+  color:black;
+  margin-top:30px;
+}
+.footerlogo{
+   font-size:15px;
+  color:#9B9B9B;
+  margin-left:10px;
+}
+.footera a{
+   color:#666666;
+   text-decoration: none;
+}
+.footermedia a{
+  color:#666666;
+  width:28px;
+  height:24px;
+}
+
+.navbar {
+  border-bottom: 0.5px solid #e0e0e0; /* super thin line */
+}
+
+
+.navbarlogo{
+  width:127px;
+  height:17px;
+  margin-left:120px;
+ 
+
+}
+.navbarright{
+  margin-left:100px;
+}
+.navbara a{
+   color:#666666;
+   text-decoration: none;
+}
+.aboutp{
+  width:432px;
+  height:437px;
+  margin-left:80px;
+}
+.aboutp p{
+  color:#424242;
+  margin:16px 0px 15px;
+  font-size: 16px;
+  font-weight:500;
+}
+.nithin{
+  height:295px;
+  width:295px;
+  border-radius: 50%;
+  
+}
+.nithindiv{
+margin-left:60px;
+}
+.universeimage img{
+  width:198px;
+  height:50px;
+}
+.universeimage div{
+  width:254px;
+  height:348px;
+}
+.universeimage p{
+  color:#9B9B9B;
+  font-size:12px;
+}
+.moneyimage img{
+  height: 184px;
+  width:250px;
+}
+.brokeragep p{
+  color:#424242;
+  font-size: 12px;;
+}
+.search{
+  background-color: white;
+}
+.supportinput{
+  border-left:none;
+  border-radius: none;
+  height:60px;
+  
+  
+}
+.supportdiv{
+  width:1200px;
+}
+.supporticon{
+  color:#9B9B9B;
+  font-size: 16px;
+}
+.supportinput::placeholder{
+  color:#9B9B9B;
+  font-size: 16px;
+
+}
+.supportticket{
+  background-color: #397DD0;
+  border-radius: none;
+}
+.supporthero{
+  width:100% !important;
+  height:200px;
+  background-color:#f5f2f2;
+}
+.ticketsupport{
+  width:668px;
+height:48px;
+border:0.2px solid rgb(232, 225, 225);
+display: flex;
+justify-content: center;
+margin-bottom:120px;
+margin-top: 50px;
+}
+.supportselect{
+  height:48px;
+  
+}
+.plus{
+  height:48px;
+  width:60px;
+ display: flex;
+align-items: center;
+  
+
+}
+.plus i{
+ margin-left:8px;
+  border-radius:50%;
+}
+.signupinput{
+  width: 300px;
+  height: 45px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-container{
+  position:fixed;
+  width:500px;
+  left:850px;
+  top:75px;
+  height:200px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
