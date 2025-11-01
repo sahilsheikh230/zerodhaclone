@@ -18,7 +18,7 @@ const cookieParser = require("cookie-parser");
 
 app.use(cookieParser());
 app.use(cors({
-  origin: ["http://localhost:3001", "http://localhost:3002"], 
+  origin: ["https://zerodha1045.netlify.app/", "https://kite1045.netlify.app/"], 
   credentials: true
 }));
 app.use(bodyParser.json());
@@ -120,7 +120,8 @@ const token = jwt.sign({id:user._id},process.env.TOKEN_KEY);
       token,               
       username: user.username 
     });
-
+res.send("login sucess");
+console.log("login sucess");
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Server error" });
