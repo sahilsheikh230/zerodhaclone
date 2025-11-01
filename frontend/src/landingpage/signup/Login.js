@@ -22,10 +22,10 @@ let [err,setError]=useState("");
     
 
     try {
-      const response = await axios.post("http://localhost:3000/login", formData,{ withCredentials: true });
+      const response = await axios.post("https://zerodhabackend-ix8a.onrender.com/login", formData,{ withCredentials: true });
       alert(response.data.message || "Logged in!");
       
-        navigate("/");
+        navigate("https://zerodha1045.netlify.app/");
     } catch (err) {
       console.log(err);
       

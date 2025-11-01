@@ -20,7 +20,7 @@ let[error,setError]=useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
 
-axios.post("http://localhost:3000/signup",{
+axios.post("https://zerodhabackend-ix8a.onrender.com/signup",{
      username: formData.username,
     email: formData.email,
     password: formData.password,
@@ -28,7 +28,7 @@ axios.post("http://localhost:3000/signup",{
 })
 .then((response)=>{
     alert("registered successfully!");
-    navigate("/");
+    navigate("https://zerodha1045.netlify.app/");
 })
 .catch((error)=>{
     

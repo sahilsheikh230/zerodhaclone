@@ -43,14 +43,14 @@ export  function Menu() {
 
 const handleDashboardClick = async () => {
   try {
-    const res = await axios.get("http://localhost:3000/verifyuser", { withCredentials: true });
+    const res = await axios.get("https://zerodhabackend-ix8a.onrender.com/verifyuser", { withCredentials: true });
 
     if (res.data.status) {
       
-      window.location.href="http://localhost:3002";
+      window.location.href="https://kite1045.netlify.app/";
     } else {
       alert("Please login first");
-      navigate("/login"); 
+      navigate("https://zerodha1045.netlify.app/login"); 
     }
   } catch (err) {
     alert("Please login first");
