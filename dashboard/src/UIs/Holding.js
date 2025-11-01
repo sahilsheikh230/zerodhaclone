@@ -9,7 +9,7 @@ export default function Holding() {
 
   
 useEffect(()=>{
-  axios.get("https://zerodha1045.netlify.app/getholdings").then((res)=>{
+  axios.get("https://zerodhabackend-ix8a.onrender.com/getholdings").then((res)=>{
     setAllholdings(res.data);
   })
 },[])

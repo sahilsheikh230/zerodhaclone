@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function Position(){
 let [allpositions,setAllpositions]=useState([]);
 useEffect(()=>{
-  axios.get("https://zerodha1045.netlify.app/getpositions").then((res)=>{
+  axios.get("https://zerodhabackend-ix8a.onrender.com/getpositions").then((res)=>{
     setAllpositions(res.data);
   })
 })

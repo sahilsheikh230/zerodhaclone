@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function Position(){
 let [allorders,setOrders]=useState([]);
 useEffect(()=>{
-  axios.get("https://zerodha1045.netlify.app/getorders").then((res)=>{
+  axios.get("https://zerodhabackend-ix8a.onrender.com/getorders").then((res)=>{
     setOrders(res.data);
   })
 })
