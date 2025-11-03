@@ -28,7 +28,7 @@ axios.post("https://zerodhabackend-ix8a.onrender.com/signup",{
 })
 .then((response)=>{
     alert("registered successfully!");
-    navigate("https://zerodha1045.netlify.app");
+    navigate("/");
 })
 .catch((error)=>{
     
