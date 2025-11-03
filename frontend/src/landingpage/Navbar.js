@@ -47,7 +47,7 @@ const handleDashboardClick = async () => {
 
     if (res.data.status) {
       
-      window.location.href="https://kite1045.netlify.app/";
+      window.location.href="https://kite1045.netlify.app";
     } else {
       alert("Please login first");
       navigate("/login"); 

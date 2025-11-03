@@ -25,7 +25,7 @@ let [err,setError]=useState("");
       const response = await axios.post("https://zerodhabackend-ix8a.onrender.com/login", formData,{ withCredentials: true });
       alert(response.data.message || "Logged in!");
       
-        navigate("https://zerodha1045.netlify.app/");
+        navigate("https://zerodha1045.netlify.app");
     } catch (err) {
       console.log(err);
       
