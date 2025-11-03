@@ -15,6 +15,10 @@ const handleBuyClick=()=>{
         qty:stockqty,
 price:price,
 mode:"BUY",
+    }).then((res)=>{
+      alert("Stock buy successful!")
+    }).catch((err)=>{
+      alert("Try again Later!")
     })
     closeBuyWindow();
 }
