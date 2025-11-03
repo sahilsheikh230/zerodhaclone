@@ -50,7 +50,7 @@ const handleDashboardClick = async () => {
       window.location.href="https://kite1045.netlify.app/";
     } else {
       alert("Please login first");
-      navigate("https://zerodha1045.netlify.app/login"); 
+      navigate("/login"); 
     }
   } catch (err) {
     alert("Please login first");

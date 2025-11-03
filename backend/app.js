@@ -18,9 +18,14 @@ const cookieParser = require("cookie-parser");
 
 app.use(cookieParser());
 app.use(cors({
-  origin: ["https://zerodha1045.netlify.app/", "https://kite1045.netlify.app/"], 
+  origin: [
+    "http://localhost:3000", 
+    "https://zerodha1045.netlify.app",
+    "https://kite1045.netlify.app"
+  ],
   credentials: true
 }));
+
 app.use(bodyParser.json());
 const MONGODB_URL=process.env.MONGO_URL;
 mongoose.connect(MONGODB_URL).then(()=>{

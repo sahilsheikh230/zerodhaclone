@@ -8,7 +8,7 @@ useEffect(()=>{
   axios.get("https://zerodhabackend-ix8a.onrender.com/getorders").then((res)=>{
     setOrders(res.data);
   })
-})
+},[])
 
 
 
